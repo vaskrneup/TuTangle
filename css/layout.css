@@ -15,8 +15,64 @@
 .header__main {
     background-color: #2FC1DA;
 
+    padding-bottom: 27px;
+    padding-top: 18px;
+
     width: 100%;
-    height: 85px;
+    height: 40px;
+}
+
+.header__logo {
+    background-color: black;
+
+    float: left;
+    margin-right: 12px;
+
+    width: 224px;
+    height: 38px;
+}
+
+.header__search_box {
+    background-color: lightblue;
+
+    float: left;
+    margin-top: 17px;
+    margin-left: 12px;
+
+    width: 336px;
+    height: 21px;
+}
+
+
+.header__secondary {
+    background-color: #F5F5F5;
+
+    width: 100%;
+    height: 39px;
 }
 
 /* END HEADER LAYOUT STYLES */
+
+
+/* START BODY LAYOUT STYLES */
+
+.body__container {
+    background-color: #fce7dc;
+}
+
+/* END BODY LAYOUT STYLES */
+
+/* START FOOTER LAYOUT STYLES */
+
+.footer {
+    background-color: #727272;
+
+    height: 45px;
+}
+
+.footer__container {
+
+}
+
+/* END FOOTER LAYOUT STYLES */
+
