@@ -252,6 +252,12 @@
 }
 
 
+.body__middle_column__body_container {
+    height: 520px;
+    overflow-y: auto;
+}
+
+
 .body__post_image {
     float: left;
 
