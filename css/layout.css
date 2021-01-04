@@ -137,27 +137,6 @@
     min-height: 77vh;
 }
 
-.body__middle_container {
-    background-color: #fce7dc;
-    float: left;
-
-    width: 518px;
-    height: 100px;
-}
-
-.body__right_container {
-    background-color: #bab7b4;
-    margin-left: 26px;
-
-    float: right;
-
-    width: 178px;
-    height: 720px;
-}
-
-.body__right_right__container {
-    float: left;
-}
 
 .body__left_container {
     background-color: #F5F5F5;
@@ -167,8 +146,59 @@
     float: left;
 
     width: 196px;
-    height: 720px;
+    height: 607px;
 }
+
+.body__column_title {
+    background-color: #2FC1DA;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    height: 15px;
+
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.body__column__recent_search_value_container {
+    background-color: #F5F5F5;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 14px 12px 17px 12px;
+}
+
+
+.body__column__recent_search__active {
+    background-color: #FFFFFF;
+}
+
+.body__middle_container {
+    background-color: #fce7dc;
+    float: left;
+
+    width: 518px;
+    height: 607px;
+}
+
+.body__right_container {
+    background-color: #F5F5F5;
+    margin-left: 26px;
+
+    float: right;
+
+    width: 178px;
+    height: 607px;
+}
+
+.body__right_right__container {
+    float: left;
+}
+
 
 /* END BODY LAYOUT STYLES */
 
@@ -185,3 +215,28 @@
 }
 
 /* END FOOTER LAYOUT STYLES */
+
+/* FOR REMOVING TEXT !! */
+span {
+    background-color: black;
+}
+
+a {
+    background-color: black;
+}
+
+.make_dark {
+    background-color: black;
+}
+
+.header__secondary__left_container a {
+    background-color: black;
+}
+
+.topic_boxes_invite_container {
+    background-color: black;
+}
+
+.friend_requests_container {
+    background-color: black;
+}
