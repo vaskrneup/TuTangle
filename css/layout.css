@@ -91,7 +91,35 @@
     padding-left: 8px;
     padding-right: 22px;
 
+    font-size: 14px;
+
     background-color: #5dd7c1;
+}
+
+.header__secondary__left_container {
+    float: left;
+}
+
+.header__secondary__widget {
+    float: right;
+    margin-left: 31px;
+}
+
+.header__secondary__widget span {
+    font-size: 14px;
+}
+
+.header__secondary_widget__icon {
+    background-color: #000000;
+}
+
+.topic_boxes_invite_container {
+    background-color: #d79e52;
+    font-weight: bold;
+}
+
+.friend_requests_container {
+    background-color: #e9a755;
 }
 
 
