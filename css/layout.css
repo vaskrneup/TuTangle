@@ -128,8 +128,46 @@
 
 /* START BODY LAYOUT STYLES */
 
-.body__container {
+.body {
+    margin-top: 31px;
+    margin-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 77vh;
+}
+
+.body__middle_container {
     background-color: #fce7dc;
+    float: left;
+
+    width: 518px;
+    height: 100px;
+}
+
+.body__right_container {
+    background-color: #bab7b4;
+    margin-left: 26px;
+
+    float: right;
+
+    width: 178px;
+    height: 720px;
+}
+
+.body__right_right__container {
+    float: left;
+}
+
+.body__left_container {
+    background-color: #F5F5F5;
+
+    margin-right: 26px;
+
+    float: left;
+
+    width: 196px;
+    height: 720px;
 }
 
 /* END BODY LAYOUT STYLES */
@@ -138,8 +176,8 @@
 
 .footer {
     background-color: #727272;
-
     height: 45px;
+
 }
 
 .footer__container {
@@ -147,4 +185,3 @@
 }
 
 /* END FOOTER LAYOUT STYLES */
-
