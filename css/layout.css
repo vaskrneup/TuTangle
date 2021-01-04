@@ -61,6 +61,7 @@
 
 .header__user_full_name {
     text-align: right;
+    font-weight: bold;
 }
 
 .header__user_account_options {
@@ -324,11 +325,29 @@
 .footer {
     background-color: #727272;
     height: 45px;
-
+    font-size: 10px;
 }
 
 .footer__container {
+    padding-top: 14px;
+    padding-bottom: 18px;
+}
 
+.footer__links a {
+    color: #C2C2C2;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.footer__links {
+    float: left;
+    color: #C2C2C2;
+}
+
+.footer__copyright {
+    float: right;
+    color: #C2C2C2;
 }
 
 /* END FOOTER LAYOUT STYLES */
@@ -342,9 +361,9 @@
 /*    background-color: black;*/
 /*}*/
 
-.make_dark {
-    background-color: black;
-}
+/*.make_dark {*/
+/*    background-color: black;*/
+/*}*/
 
 /*.header__secondary__left_container a {*/
 /*    background-color: black;*/
