@@ -33,14 +33,26 @@
 }
 
 .header__search_box {
-    background-color: lightblue;
+    background-color: #CAEFF7;
 
     float: left;
     margin-top: 17px;
     margin-left: 12px;
+    margin-right: 3px;
 
-    width: 336px;
+    width: 275px;
     height: 21px;
+}
+
+.header__search_button {
+    background-color: #255056;
+
+    float: left;
+    margin-top: 18px;
+    margin-left: 4px;
+
+    width: 53px;
+    height: 20px;
 }
 
 
