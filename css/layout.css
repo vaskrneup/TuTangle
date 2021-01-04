@@ -23,7 +23,7 @@
 }
 
 .header__logo {
-    background-color: black;
+    /*background-color: black;*/
 
     float: left;
     margin-right: 12px;
@@ -61,11 +61,10 @@
 
 .header__user_full_name {
     text-align: right;
-    background-color: #4dddbb;
 }
 
 .header__user_account_options {
-    background-color: #5b7d85;
+
 }
 
 .header__user_account_options a {
@@ -92,8 +91,6 @@
     padding-right: 22px;
 
     font-size: 14px;
-
-    background-color: #5dd7c1;
 }
 
 .header__secondary__left_container {
@@ -114,12 +111,11 @@
 }
 
 .topic_boxes_invite_container {
-    background-color: #d79e52;
     font-weight: bold;
 }
 
 .friend_requests_container {
-    background-color: #e9a755;
+
 }
 
 
@@ -256,6 +252,65 @@
 }
 
 
+.body__post_image {
+    float: left;
+
+    width: 70px;
+    height: 70px;
+    background-color: #727272;
+
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.body__post_container {
+    height: 85px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.body__post_content {
+    float: left;
+
+    margin-top: 17px;
+    margin-left: 9px;
+}
+
+.post__announcement {
+    color: #319EB2;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.post__announcement__danger {
+    color: #D53F1A;
+}
+
+.post__title {
+    font-weight: bold;
+}
+
+.post__title {
+    font-size: 13px;
+}
+
+.post__author_name {
+    color: #4FAFBF;
+    font-weight: bold;
+}
+
+.post__subscribed_tag {
+    color: #80A43A;
+    font-weight: bold;
+}
+
+.post__from {
+    color: #4FAFBF;
+    font-weight: bold;
+}
+
+
 /* END BODY LAYOUT STYLES */
 
 /* START FOOTER LAYOUT STYLES */
@@ -273,26 +328,30 @@
 /* END FOOTER LAYOUT STYLES */
 
 /* FOR REMOVING TEXT !! */
-span {
-    background-color: black;
-}
+/*span {*/
+/*    background-color: black;*/
+/*}*/
 
-a {
-    background-color: black;
-}
+/*a {*/
+/*    background-color: black;*/
+/*}*/
 
 .make_dark {
     background-color: black;
 }
 
-.header__secondary__left_container a {
-    background-color: black;
-}
+/*.header__secondary__left_container a {*/
+/*    background-color: black;*/
+/*}*/
 
-.topic_boxes_invite_container {
-    background-color: black;
-}
+/*.topic_boxes_invite_container {*/
+/*    background-color: black;*/
+/*}*/
 
-.friend_requests_container {
+/*.friend_requests_container {*/
+/*    background-color: black;*/
+/*}*/
+
+.header__logo {
     background-color: black;
 }
