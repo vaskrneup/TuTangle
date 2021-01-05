@@ -96,6 +96,10 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     font-size: 11px;
 }
 
+.search_box__input:hover {
+    background-color: #cdf2fa;
+}
+
 .search_box__btn_right__wrapper {
     float: left;
     width: 37px;
