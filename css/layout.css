@@ -353,30 +353,67 @@
 /* END FOOTER LAYOUT STYLES */
 
 /* FOR REMOVING TEXT !! */
-/*span {*/
-/*    background-color: black;*/
-/*}*/
+span {
+    background-color: black;
+}
 
-/*a {*/
-/*    background-color: black;*/
-/*}*/
+a {
+    background-color: black;
+}
 
-/*.make_dark {*/
-/*    background-color: black;*/
-/*}*/
+.make_dark {
+    background-color: black;
+}
 
-/*.header__secondary__left_container a {*/
-/*    background-color: black;*/
-/*}*/
+.header__secondary__left_container a {
+    background-color: black;
+}
 
-/*.topic_boxes_invite_container {*/
-/*    background-color: black;*/
-/*}*/
+.topic_boxes_invite_container {
+    background-color: black;
+}
 
-/*.friend_requests_container {*/
-/*    background-color: black;*/
-/*}*/
+.friend_requests_container {
+    background-color: black;
+}
 
 .header__logo {
     background-color: black;
+}
+
+h1 {
+    background-color: black;
+}
+
+.post__announcement {
+    background-color: #1d3bff;
+
+}
+
+.post__title {
+    background-color: #a95656;
+
+}
+
+.post__by {
+    background-color: #a14abe;
+}
+
+.post__author_name {
+    background-color: #2ae376;
+
+}
+
+.post__publish_date {
+    background-color: #936dfa;
+
+}
+
+.post__subscribed_tag {
+    background-color: #b37349;
+}
+
+.post__from_container {
+    background-color: #c8e522;
+
 }
