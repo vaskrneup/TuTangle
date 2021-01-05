@@ -9,6 +9,11 @@ a {
     text-decoration: none;
 }
 
+a:hover, .header__secondary__left_container a:hover, span a:hover, .header__secondary__widget a:hover {
+    color: #626262;
+}
+
+
 .center__div {
     margin: 0 auto;
 }
@@ -407,6 +412,14 @@ a {
     font-weight: bold;
 }
 
+.post__author_name:hover, .post__from:hover, .post__announcement a:hover {
+    color: #2e6f7a;
+    font-weight: bold;
+}
+
+.post__announcement__danger a:hover {
+    color: #ba2400;
+}
 
 /* END BODY LAYOUT STYLES */
 
@@ -430,12 +443,16 @@ a {
     text-decoration: none;
 }
 
+.footer__links a:hover, .footer__copyright a:hover {
+    color: #dddddd;
+}
+
 .footer__links {
     float: left;
     color: #C2C2C2;
 }
 
-.footer__copyright {
+.footer__copyright a {
     float: right;
     color: #C2C2C2;
 }
