@@ -246,15 +246,48 @@
 }
 
 .body__middle_container__header_container__button__common {
-    background-color: #DDDDDD;
-    height: 7px;
-    width: 74px;
+    /*background-color: #DDDDDD;*/
+    height: 27px;
+    width: 114px;
 
     font-size: 12px;
 
     margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 9px 9px 0 0;
+    /*padding: 10px 20px;*/
+    /*border-radius: 9px 9px 0 0;*/
+}
+
+.active_category_left {
+    background-image: url("../images/btns/BtnActiveLeft.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 13px;
+    overflow: hidden;
+    float: left;
+}
+
+.active_category_right__container {
+    width: 100px;
+    height: 28px;
+    float: left;
+}
+
+.active_category {
+    text-align: center;
+    background-color: #2FC1DA;
+    width: 88px;
+    height: 8px;
+    padding: 10px 0;
+    float: left;
+}
+
+
+.active_category_right {
+    background-image: url("../images/btns/BtnActiveRight.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 12px;
+    float: left;
 }
 
 .body__middle_container__header_container__left_button {
@@ -272,7 +305,7 @@
 }
 
 .body__middle_container__header_container__left_button__active {
-    background-color: #2FC1DA;
+    /*background-color: #2FC1DA;*/
 }
 
 .body__right_container {
