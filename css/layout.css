@@ -92,6 +92,8 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     border: none;
     height: 20px;
     width: 231px;
+
+    font-size: 11px;
 }
 
 .search_box__btn_right__wrapper {
