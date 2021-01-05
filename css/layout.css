@@ -27,7 +27,7 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 /* HEADER LAYOUT STYLES */
 
 .header__main {
-    background-color: #2FC1DA;
+    background-color: #7dd9e8;
 
     padding-bottom: 27px;
     padding-top: 18px;
@@ -47,7 +47,7 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 }
 
 .header__search_box {
-    background-color: #CAEFF7;
+    /*background-color: darkred;*/
 
     float: left;
     margin-top: 17px;
@@ -56,6 +56,68 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 
     width: 275px;
     height: 21px;
+}
+
+
+.search_box__left {
+    /*background-color: black;*/
+    background-image: url("../images/header/main/SearchBxLeftCircular.png");
+    width: 7px;
+    height: 20px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.search_box__right_container {
+    float: left;
+    width: 268px;
+}
+
+.search_box {
+    float: left;
+    width: 231px;
+}
+
+.search_box__right {
+    background-image: url("../images/header/main/SearchBoxRightCircular.png");
+    width: 7px;
+    height: 20px;
+    float: left;
+}
+
+.search_box__input {
+    background-color: #caeff7;
+
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 231px;
+}
+
+.search_box__btn_right__wrapper {
+    float: left;
+    width: 37px;
+}
+
+.search_box__btn_group {
+    float: left;
+    width: 30px;
+}
+
+
+.search_box__X_btn {
+    background-image: url("../images/header/main/XIcon.png");
+    float: left;
+    width: 15px;
+    height: 20px;
+}
+
+.search_box__Search_btn {
+    background-image: url("../images/header/main/SearchIcon.png");
+    margin-left: 1px;
+    float: left;
+    width: 14px;
+    height: 20px;
 }
 
 .header__search_button {
@@ -271,7 +333,7 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 .category {
     background-color: #dddddd;
     text-align: center;
-    width: 88px;
+    width: 86px;
     height: 7px;
     padding: 10px 0;
     float: left;
@@ -292,12 +354,12 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     background-image: url("../images/btns/BtnInActiveRight.png");
     background-repeat: no-repeat;
     height: 27px;
-    width: 12px;
+    width: 13px;
     float: left;
 }
 
 .category_right__container {
-    width: 100px;
+    width: 101px;
     height: 27px;
     float: left;
 }
