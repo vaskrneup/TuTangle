@@ -1,4 +1,8 @@
 /* COMMON LAYOUT STYLES !! */
+.default_link {
+    color: black;
+    text-decoration: none;
+}
 
 .center__div {
     margin: 0 auto;
@@ -103,6 +107,11 @@
     margin-left: 31px;
 }
 
+.header__secondary__widget a {
+    text-decoration: none;
+    padding: 0;
+}
+
 .header__secondary__widget span {
     font-size: 14px;
 }
@@ -188,6 +197,11 @@
 }
 
 .body__left_container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.search_results__container a {
     text-decoration: none;
     color: #000000;
 }
