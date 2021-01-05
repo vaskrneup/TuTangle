@@ -160,8 +160,8 @@
     height: 15px;
 
     padding-left: 12px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-top: 14px;
 }
 
 .search_results__container {
@@ -181,6 +181,15 @@
     font-weight: bold;
 
     padding: 11px 12px;
+}
+
+.body__column__recent_search_value_container:hover {
+    background-color: #ffffff;
+}
+
+.body__left_container a {
+    text-decoration: none;
+    color: #000000;
 }
 
 
