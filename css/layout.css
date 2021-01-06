@@ -300,6 +300,7 @@ a {
 
 .recent_search_icon__container {
     float: right;
+    margin-left: 10px;
 }
 
 .body__column_title {
@@ -329,7 +330,7 @@ a {
 .body__column__recent_search_value_container {
     background-color: #F5F5F5;
 
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 
     padding: 11px 12px;
@@ -519,8 +520,10 @@ a {
 }
 
 .body__post_content {
-    float: left;
+    font-family: Muli, serif;
 
+    float: left;
+    font-size: 12px;
     margin-top: 17px;
     margin-left: 9px;
 }
@@ -529,7 +532,9 @@ a {
     color: #319EB2;
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 12px;
+    font-size: 11px;
+
+    margin-bottom: 3px;
 }
 
 .post__announcement__danger {
@@ -538,10 +543,9 @@ a {
 
 .post__title {
     font-weight: bold;
-}
+    font-size: 15px;
 
-.post__title {
-    font-size: 13px;
+    margin-bottom: 2px;
 }
 
 .post__author_name {
@@ -561,6 +565,10 @@ a {
 .post__from {
     color: #4FAFBF;
     font-weight: bold;
+}
+
+.post__by {
+    margin-bottom: 2px;
 }
 
 .post__author_name:hover, .post__from:hover, .post__announcement a:hover {
