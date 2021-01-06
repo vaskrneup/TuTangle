@@ -22,7 +22,8 @@ a {
     display: block;
     width: 100%;
     height: 100%;
-    font-size: 11px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .center__div {
@@ -31,6 +32,10 @@ a {
 
 .theme__size_container {
     width: 944px;
+}
+
+h1 {
+    font-size: 25px;
 }
 
 /* END COMMON LAYOUT STYLES !! */
@@ -210,6 +215,8 @@ a {
 .header__user_account_options a {
     color: black;
     text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 
@@ -235,6 +242,22 @@ a {
 
 .header__secondary__left_container {
     float: left;
+}
+
+
+.header__secondary__left_container a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.friend_requests_container {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notification {
+    font-size: 5px;
+    font-weight: bold;
 }
 
 .header__secondary__widget {
@@ -374,6 +397,12 @@ a {
     padding-top: 13px;
 
     border-radius: 9px 9px 0 0;
+}
+
+.body__middle_container__header_container__common span {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Muli, serif;
 }
 
 .body__middle_container__header_container__left {
