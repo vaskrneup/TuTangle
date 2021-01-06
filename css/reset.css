@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h1 {
+    font-family: Muli, serif
+}
+
 /*::-webkit-scrollbar {*/
 /*    width: 5px;*/
 /*    height: 5px;*/
