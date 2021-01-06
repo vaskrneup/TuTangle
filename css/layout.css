@@ -9,10 +9,9 @@ a {
     text-decoration: none;
 }
 
-a:hover, .header__secondary__left_container a:hover, span a:hover, .header__secondary__widget a:hover {
-    color: #626262;
+.header__secondary__left_container a:hover, span a:hover, .header__secondary__widget a:hover {
+    color: #167183;
 }
-
 
 .block__link {
     display: block;
@@ -238,6 +237,10 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     background-repeat: no-repeat;
 }
 
+.friend_req_icon:hover {
+    background-image: url("../images/header/secondary/FriendReqBtnActive.png");
+}
+
 .header__secondary__widget a {
     text-decoration: none;
     padding: 0;
@@ -388,6 +391,17 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     /*border-radius: 9px 9px 0 0;*/
 }
 
+.body__middle_container__header_container__button__common:hover .category {
+    background-color: #2FC1DA;
+}
+
+.body__middle_container__header_container__button__common:hover .category_left {
+    background-image: url("../images/btns/BtnActiveLeft.png");
+}
+
+.body__middle_container__header_container__button__common:hover .category_right {
+    background-image: url("../images/btns/BtnActiveRight.png");
+}
 
 .category {
     background-color: #dddddd;
@@ -427,6 +441,9 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     background-image: url("../images/btns/BtnActiveLeft.png");
 }
 
+.category:hover {
+
+}
 
 .active_category {
     background-color: #2FC1DA;
@@ -579,3 +596,6 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 }
 
 /* END FOOTER LAYOUT STYLES */
+/*.block__link:hover {*/
+/*    color: #167183;*/
+/*}*/
