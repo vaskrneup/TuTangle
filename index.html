@@ -8,494 +8,493 @@
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
 </head>
 
-<body>
+<div>
+    <div class="header">
+        <div class="header__main ">
+            <!-- First Nav container -->
+            <div class="theme__size_container center__div">
+                <!-- Left Floating widgets -->
+                <div class="header__left_container">
+                    <div class="header__logo">
+                        <a href="#"><img src="./images/header/main/Logo.png" alt="Website Logo"></a>
+                    </div>
 
-<div class="header">
-    <div class="header__main ">
-        <!-- First Nav container -->
-        <div class="theme__size_container center__div">
-            <!-- Left Floating widgets -->
-            <div class="header__left_container">
-                <div class="header__logo">
-                    <a href="#"><img src="./images/header/main/Logo.png" alt="Website Logo"></a>
-                </div>
+                    <form action="#">
+                        <div class="header__search_box__container">
 
-                <form action="#">
-                    <div class="header__search_box__container">
-
-                        <div class="header__search_box">
-                            <div class="search_box__left"></div>
-                            <div class="search_box__right_container">
-                                <div class="search_box">
-                                    <label>
-                                        <input type="text" class="search_box__input"
-                                               value="Search by Term, Member or Entry Title">
-                                    </label>
-                                </div>
-
-                                <div class="search_box__btn_right__wrapper">
-                                    <div class="search_box__btn_group">
-                                        <div class="search_box__X_btn">
-                                            <a href="#" class="block__link"></a>
-                                        </div>
-                                        <div class="search_box__Search_btn">
-                                            <a href="#" class="block__link"></a>
-                                        </div>
+                            <div class="header__search_box">
+                                <div class="search_box__left"></div>
+                                <div class="search_box__right_container">
+                                    <div class="search_box">
+                                        <label>
+                                            <input type="text" class="search_box__input"
+                                                   value="Search by Term, Member or Entry Title">
+                                        </label>
                                     </div>
 
-                                    <div class="search_box__right"></div>
+                                    <div class="search_box__btn_right__wrapper">
+                                        <div class="search_box__btn_group">
+                                            <div class="search_box__X_btn">
+                                                <a href="#" class="block__link"></a>
+                                            </div>
+                                            <div class="search_box__Search_btn">
+                                                <a href="#" class="block__link"></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="search_box__right"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header__search_button">
+                                <div class="search_button__left">
+
+                                </div>
+
+                                <div class="search_button__right_container">
+                                    <div class="search_button__container">
+                                        <button class="search_button" type="submit">SEARCH</button>
+                                    </div>
+                                    <div class="search_button__right">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </form>
+                </div>
+                <!-- END Left Floating widgets -->
 
-                        <div class="header__search_button">
-                            <div class="search_button__left">
-
-                            </div>
-
-                            <div class="search_button__right_container">
-                                <div class="search_button__container">
-                                    <button class="search_button" type="submit">SEARCH</button>
-                                </div>
-                                <div class="search_button__right">
-
-                                </div>
-                            </div>
-                        </div>
+                <!-- Right Floating widgets -->
+                <div class="header__right_container">
+                    <div class="header__user_full_name">
+                        <a href="#" class="default_link">Joe Burros</a>
                     </div>
-                </form>
-            </div>
-            <!-- END Left Floating widgets -->
 
-            <!-- Right Floating widgets -->
-            <div class="header__right_container">
-                <div class="header__user_full_name">
-                    <a href="#" class="default_link">Joe Burros</a>
+                    <div class="header__user_account_options">
+                        <span><a href="#">Home</a></span> | <span><a href="#">Settings</a></span> | <span><a href="#">Log Out</a></span>
+                    </div>
                 </div>
-
-                <div class="header__user_account_options">
-                    <span><a href="#">Home</a></span> | <span><a href="#">Settings</a></span> | <span><a href="#">Log Out</a></span>
-                </div>
+                <!-- END Right Floating widgets -->
             </div>
-            <!-- END Right Floating widgets -->
+            <!-- END First Nav container -->
         </div>
-        <!-- END First Nav container -->
-    </div>
 
-    <div class="header__secondary">
-        <!-- Second Nav container -->
-        <div class="theme__size_container center__div">
-            <div class="header__secondary__left_container">
-                <a href="#">Create New Entry</a>
-                <a href="#">My Topic Boxes</a>
-                <a href="#">Friends</a>
-                <a href="#">Invite New Member</a>
-            </div>
+        <div class="header__secondary">
+            <!-- Second Nav container -->
+            <div class="theme__size_container center__div">
+                <div class="header__secondary__left_container">
+                    <a href="#">Create New Entry</a>
+                    <a href="#">My Topic Boxes</a>
+                    <a href="#">Friends</a>
+                    <a href="#">Invite New Member</a>
+                </div>
 
-            <div class="header__secondary__right_container">
-                <!-- SECOND ICON !! -->
-                <div class="header__secondary__widget">
-                    <a href="#">
-                        <img src="./images/header/secondary/FriendReqIcon.png" alt="Friend Request Icon"> &nbsp;
-                        <span class="friend_requests_container">
+                <div class="header__secondary__right_container">
+                    <!-- SECOND ICON !! -->
+                    <div class="header__secondary__widget">
+                        <a href="#">
+                            <img src="./images/header/secondary/FriendReqIcon.png" alt="Friend Request Icon"> &nbsp;
+                            <span class="friend_requests_container">
                             Friend Requests -
                             <span id="friend_requests" class="friend_requests">0</span>
                         </span>
-                    </a>
-                </div>
+                        </a>
+                    </div>
 
-                <!-- FIRST ICON !! -->
-                <div class="header__secondary__widget">
-                    <a href="#">
-                        <img src="./images/header/secondary/TopcBoxicon.png" alt="Topic icon"> &nbsp;
-                        <span class="topic_boxes_invite_container">
+                    <!-- FIRST ICON !! -->
+                    <div class="header__secondary__widget">
+                        <a href="#">
+                            <img src="./images/header/secondary/TopcBoxicon.png" alt="Topic icon"> &nbsp;
+                            <span class="topic_boxes_invite_container">
                             Topic Boxes Invites -
                             <span id="topic_boxes_invite" class="topic_boxes_invite">2</span>
                         </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <!-- END Second Nav container -->
         </div>
-        <!-- END Second Nav container -->
     </div>
-</div>
 
-<div class="body">
-    <div class="body__container theme__size_container center__div">
-        <div class="body__left_container">
-            <div class="body__column_top_search_container">
-                <div class="body__column_title">
-                    Recent Searches
-                </div>
-
-                <div class="search_results__container">
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsum asd asd asd asdada dad asdasd</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/DownloadIcon.png" alt="Download Icon.">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/DownloadIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="body__column_bottom_search_container">
-                <div class="body__column_title">
-                    Recent Searches
-                </div>
-
-                <div class="search_results_second__container">
-
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asda sda asd asda sdasd ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asdadasd ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem sa ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asdasd a ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asdasd a ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem aasd asd sdasd a ipsum</a>
-                        <div class="recent_search_icon__container">
-                            <a href="#">
-                                <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
-                                     class="recent_search_icon">
-                            </a>
-                        </div>
+    <div class="body">
+        <div class="body__container theme__size_container center__div">
+            <div class="body__left_container">
+                <div class="body__column_top_search_container">
+                    <div class="body__column_title">
+                        Recent Searches
                     </div>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="body__right_right__container">
-            <div class="body__middle_container">
-                <h1>Entries</h1>
-
-                <div class="body__middle_column__header_container">
-                    <div class="body__middle_container__header_container__left body__middle_container__header_container__common">
-                        <span>All Entries</span>
-
-                        <div class="body__middle_container__header_container__left_button_container">
-                            <div class="body__middle_container__header_container__left_button body__middle_container__header_container__left_button__active body__middle_container__header_container__button__common">
-                                <div class="active_category_left category_left">
-                                    <a href="#" class="block__link"></a>
-                                </div>
-                                <div class="active_category_right__container">
-                                    <div class="active_category category">
-                                        <a href="#" class="block__link">All Members</a>
-                                    </div>
-                                    <div class="active_category_right category_right">
-                                        <a href="#" class="block__link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
-                                <div class="category_left">
-                                    <a href="#" class="block__link"></a>
-                                </div>
-                                <div class="category_right__container">
-                                    <div class="category">
-                                        <a href="#" class="block__link">Friends</a>
-                                    </div>
-                                    <div class="category_right">
-                                        <a href="#" class="block__link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body__middle_container__header_container__right body__middle_container__header_container__common">
-                        <span>Subscribed</span>
-
-                        <div class="body__middle_container__header_container__right_button_container">
-                            <div class="body__middle_container__header_container__left_button body__middle_container__header_container__button__common">
-                                <div class="category_left">
-                                    <a href="#" class="block__link"></a>
-                                </div>
-                                <div class="category_right__container">
-                                    <div class="category">
-                                        <a href="#" class="block__link">New Entries</a>
-                                    </div>
-                                    <div class="category_right">
-                                        <a href="#" class="block__link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
-                                <div class="category_left">
-                                    <a href="#" class="block__link"></a>
-                                </div>
-                                <div class="category_right__container">
-                                    <div class="category">
-                                        <a href="#" class="block__link">New Comments</a>
-                                    </div>
-                                    <div class="category_right">
-                                        <a href="#" class="block__link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="body__middle_column__body_container">
-                    <div class="body__post_container">
-                        <div class="body__post_image">
-                            <a href="#">
-                                <img src="images/faces/FirstPerson.jpg" alt="Profile Picture">
-                            </a>
-                        </div>
-
-                        <div class="body__post_content">
-                            <div class="post__announcement">
-
-                            </div>
-                            <div class="post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </div>
-                            <div class="post__by">
-                                by
-                                <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
-                                <span class="post__publish_date">
-                                    February 10, 2012
-                                </span> |
-                                <span class="post__subscribed_tag">
-                                    Subscribed
-                                </span>
-                            </div>
-                            <div class="post__from_container">
-                                From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body__post_container">
-                        <div class="body__post_image">
-                            <a href="#">
-                                <img src="images/faces/SecondPerson.jpg" alt="Profile Picture">
-                            </a>
-                        </div>
-
-                        <div class="body__post_content">
-                            <div class="post__announcement">
-                                <a href="#" class="post__announcement">NEW ENTRY !!</a>
-                            </div>
-                            <div class="post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </div>
-                            <div class="post__by">
-                                by
-                                <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
-                                <span class="post__publish_date">
-                                    February 10, 2012
-                                </span> |
-                                <span class="post__subscribed_tag">
-                                    Subscribed
-                                </span>
-                            </div>
-                            <div class="post__from_container">
-                                From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body__post_container">
-                        <div class="body__post_image">
-                            <a href="#">
-                                <img src="images/faces/ThirdPerson.jpg" alt="Profile Picture">
-                            </a>
-                        </div>
-
-                        <div class="body__post_content">
-                            <div class="post__announcement">
-                                <a href="#" class="post__announcement">NEW COMMENT !!</a>
-                            </div>
-                            <div class="post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </div>
-                            <div class="post__by">
-                                by
-                                <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
-                                <span class="post__publish_date">
-                                    February 10, 2012
-                                </span> |
-                                <span class="post__subscribed_tag">
-                                    Subscribed
-                                </span>
-                            </div>
-                            <div class="post__from_container">
-                                From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body__post_container">
-                        <div class="body__post_image">
-                            <a href="#">
-                                <img src="images/faces/ForthPerson.jpg" alt="Profile Picture">
-                            </a>
-                        </div>
-
-                        <div class="body__post_content">
-                            <div class="post__announcement">
-
-                            </div>
-                            <div class="post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </div>
-                            <div class="post__by">
-                                by
-                                <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
-                                <span class="post__publish_date">
-                                    February 10, 2012
-                                </span> |
-                                <span class="post__subscribed_tag">
-                                    Subscribed
-                                </span>
-                            </div>
-                            <div class="post__from_container">
-                                From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body__post_container">
-                        <div class="body__post_image">
-                            <a href="#">
-                                <img src="images/faces/FifthPerson.jpg" alt="Profile Picture">
-                            </a>
-                        </div>
-
-                        <div class="body__post_content">
-                            <div class="post__announcement post__announcement__danger">
-                                <a href="#" class="post__announcement post__announcement__danger">
-                                    TOPIC BOX INVITE !!
+                    <div class="search_results__container">
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsum asd asd asd asdada dad asdasd</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/DownloadIcon.png" alt="Download Icon.">
                                 </a>
                             </div>
-                            <div class="post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </div>
-                            <div class="post__by">
-                                by
-                                <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
-                                <span class="post__publish_date">
-                                    February 10, 2012
-                                </span> |
-                                <span class="post__subscribed_tag">
-                                    Subscribed
-                                </span>
-                            </div>
-                            <div class="post__from_container">
-                                From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/DownloadIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="body__column_bottom_search_container">
+                    <div class="body__column_title">
+                        Recent Searches
+                    </div>
+
+                    <div class="search_results_second__container">
+
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asda sda asd asda sdasd ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asdadasd ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem sa ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asdasd a ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asdasd a ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem aasd asd sdasd a ipsum</a>
+                            <div class="recent_search_icon__container">
+                                <a href="#">
+                                    <img src="./images/icons/HamBurgerIcon.png" alt="Download Icon."
+                                         class="recent_search_icon">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="body__right_container">
-                <div class="body__column_title">
-                    Video Tutorials
+            <div class="body__right_right__container">
+                <div class="body__middle_container">
+                    <h1>Entries</h1>
+
+                    <div class="body__middle_column__header_container">
+                        <div class="body__middle_container__header_container__left body__middle_container__header_container__common">
+                            <span>All Entries</span>
+
+                            <div class="body__middle_container__header_container__left_button_container">
+                                <div class="body__middle_container__header_container__left_button body__middle_container__header_container__left_button__active body__middle_container__header_container__button__common">
+                                    <div class="active_category_left category_left">
+                                        <a href="#" class="block__link"></a>
+                                    </div>
+                                    <div class="active_category_right__container">
+                                        <div class="active_category category">
+                                            <a href="#" class="block__link">All Members</a>
+                                        </div>
+                                        <div class="active_category_right category_right">
+                                            <a href="#" class="block__link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
+                                    <div class="category_left">
+                                        <a href="#" class="block__link"></a>
+                                    </div>
+                                    <div class="category_right__container">
+                                        <div class="category">
+                                            <a href="#" class="block__link">Friends</a>
+                                        </div>
+                                        <div class="category_right">
+                                            <a href="#" class="block__link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body__middle_container__header_container__right body__middle_container__header_container__common">
+                            <span>Subscribed</span>
+
+                            <div class="body__middle_container__header_container__right_button_container">
+                                <div class="body__middle_container__header_container__left_button body__middle_container__header_container__button__common">
+                                    <div class="category_left">
+                                        <a href="#" class="block__link"></a>
+                                    </div>
+                                    <div class="category_right__container">
+                                        <div class="category">
+                                            <a href="#" class="block__link">New Entries</a>
+                                        </div>
+                                        <div class="category_right">
+                                            <a href="#" class="block__link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
+                                    <div class="category_left">
+                                        <a href="#" class="block__link"></a>
+                                    </div>
+                                    <div class="category_right__container">
+                                        <div class="category">
+                                            <a href="#" class="block__link">New Comments</a>
+                                        </div>
+                                        <div class="category_right">
+                                            <a href="#" class="block__link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__middle_column__body_container">
+                        <div class="body__post_container">
+                            <div class="body__post_image">
+                                <a href="#">
+                                    <img src="images/faces/FirstPerson.jpg" alt="Profile Picture">
+                                </a>
+                            </div>
+
+                            <div class="body__post_content">
+                                <div class="post__announcement">
+
+                                </div>
+                                <div class="post__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                                <div class="post__by">
+                                    by
+                                    <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
+                                    <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                    <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                                </div>
+                                <div class="post__from_container">
+                                    From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body__post_container">
+                            <div class="body__post_image">
+                                <a href="#">
+                                    <img src="images/faces/SecondPerson.jpg" alt="Profile Picture">
+                                </a>
+                            </div>
+
+                            <div class="body__post_content">
+                                <div class="post__announcement">
+                                    <a href="#" class="post__announcement">NEW ENTRY !!</a>
+                                </div>
+                                <div class="post__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                                <div class="post__by">
+                                    by
+                                    <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
+                                    <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                    <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                                </div>
+                                <div class="post__from_container">
+                                    From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body__post_container">
+                            <div class="body__post_image">
+                                <a href="#">
+                                    <img src="images/faces/ThirdPerson.jpg" alt="Profile Picture">
+                                </a>
+                            </div>
+
+                            <div class="body__post_content">
+                                <div class="post__announcement">
+                                    <a href="#" class="post__announcement">NEW COMMENT !!</a>
+                                </div>
+                                <div class="post__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                                <div class="post__by">
+                                    by
+                                    <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
+                                    <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                    <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                                </div>
+                                <div class="post__from_container">
+                                    From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body__post_container">
+                            <div class="body__post_image">
+                                <a href="#">
+                                    <img src="images/faces/ForthPerson.jpg" alt="Profile Picture">
+                                </a>
+                            </div>
+
+                            <div class="body__post_content">
+                                <div class="post__announcement">
+
+                                </div>
+                                <div class="post__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                                <div class="post__by">
+                                    by
+                                    <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
+                                    <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                    <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                                </div>
+                                <div class="post__from_container">
+                                    From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body__post_container">
+                            <div class="body__post_image">
+                                <a href="#">
+                                    <img src="images/faces/FifthPerson.jpg" alt="Profile Picture">
+                                </a>
+                            </div>
+
+                            <div class="body__post_content">
+                                <div class="post__announcement post__announcement__danger">
+                                    <a href="#" class="post__announcement post__announcement__danger">
+                                        TOPIC BOX INVITE !!
+                                    </a>
+                                </div>
+                                <div class="post__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                                <div class="post__by">
+                                    by
+                                    <a href="#"><span class="post__author_name">Lorem ipsum</span></a> |
+                                    <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                    <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                                </div>
+                                <div class="post__from_container">
+                                    From Topic Box: <a href="#"><span class="post__from">My Favourite Movies</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="search_results__container">
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Loreasd m ipsum</a>
+                <div class="body__right_container">
+                    <div class="body__column_title">
+                        Video Tutorials
                     </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsuas dasdasdm</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asdipsum</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsum</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem as dasd asdipsum</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ips asd asd asum</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem asd asdasd ipsum</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsuas dasd asdm</a>
-                    </div>
-                    <div class="body__column__recent_search_value_container">
-                        <a href="#">Lorem ipsum asdasd</a>
+
+                    <div class="search_results__container">
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Loreasd m ipsum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsuas dasdasdm</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asdipsum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem as dasd asdipsum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ips asd asd asum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem asd asdasd ipsum</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsuas dasd asdm</a>
+                        </div>
+                        <div class="body__column__recent_search_value_container">
+                            <a href="#">Lorem ipsum asdasd</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="footer">
-    <div class="footer__container theme__size_container center__div">
-        <div class="footer__links">
-            <a href="#">About Us</a>•
-            <a href="#">Contact Us</a>•
-            <a href="#">Terms of Use</a>•
-            <a href="#">Privacy Policy</a>•
-            <a href="#">Feedback</a>
-        </div>
-        <div class="footer__copyright">
-            <a href="#">© TuTangle 2013</a>
+    <div class="footer">
+        <div class="footer__container theme__size_container center__div">
+            <div class="footer__links">
+                <a href="#">About Us</a>•
+                <a href="#">Contact Us</a>•
+                <a href="#">Terms of Use</a>•
+                <a href="#">Privacy Policy</a>•
+                <a href="#">Feedback</a>
+            </div>
+            <div class="footer__copyright">
+                <a href="#">© TuTangle 2013</a>
+            </div>
         </div>
     </div>
-</div>
 
-</body>
+</div>
 </html>
