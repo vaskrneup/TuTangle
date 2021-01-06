@@ -170,6 +170,7 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     background-color: #274d56;
     color: #c9d5d5;
     font-size: 9px;
+    float: left;
 }
 
 .search_button:hover {
@@ -232,6 +233,11 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
     margin-left: 31px;
 }
 
+.friend_req_icon {
+    background-image: url("../images/header/secondary/FriendReqIcon.png");
+    background-repeat: no-repeat;
+}
+
 .header__secondary__widget a {
     text-decoration: none;
     padding: 0;
@@ -250,7 +256,7 @@ a:hover, .header__secondary__left_container a:hover, span a:hover, .header__seco
 }
 
 .friend_requests_container {
-
+    margin-left: 25px;
 }
 
 
