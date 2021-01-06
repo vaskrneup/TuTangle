@@ -290,7 +290,7 @@ a {
     float: left;
 
     width: 196px;
-    /*height: 607px;*/
+    min-height: 607px;
 }
 
 .recent_search_icon__container {
@@ -354,7 +354,7 @@ a {
     float: left;
 
     width: 518px;
-    /*height: 607px;*/
+    min-height: 607px;
 }
 
 .body__middle_container__header_container__common {
@@ -422,7 +422,7 @@ a {
     background-repeat: no-repeat;
     height: 27px;
     width: 13px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     float: left;
 }
 
@@ -482,7 +482,7 @@ a {
     float: right;
 
     width: 178px;
-    /*height: 607px;*/
+    min-height: 607px;
 }
 
 .body__right_right__container {
@@ -492,7 +492,7 @@ a {
 
 .body__middle_column__body_container {
     /*height: 520px;*/
-    overflow-y: auto;
+    /*overflow-y: auto;*/
 }
 
 
