@@ -252,7 +252,6 @@ h1 {
 
 .friend_requests_container {
     font-size: 12px;
-    font-weight: bold;
 }
 
 .notification {
@@ -337,7 +336,8 @@ h1 {
 
     padding-left: 12px;
     padding-bottom: 14px;
-    padding-top: 14px;
+    padding-top: 15px;
+    font-family: Muli, serif;
 }
 
 .search_results__container {
@@ -438,6 +438,10 @@ h1 {
     background-image: url("../images/btns/BtnActiveLeft.png");
 }
 
+.body__middle_container__header_container__button__common:hover a {
+    color: white;
+}
+
 .body__middle_container__header_container__button__common:hover .category_right {
     background-image: url("../images/btns/BtnActiveRight.png");
 }
@@ -480,16 +484,16 @@ h1 {
     background-image: url("../images/btns/BtnActiveLeft.png");
 }
 
-.category:hover {
-
-}
-
 .active_category {
     background-color: #2FC1DA;
 }
 
 .active_category_right {
     background-image: url("../images/btns/BtnActiveRight.png");
+}
+
+.active_link {
+    color: white;
 }
 
 .body__middle_container__header_container__left_button {
