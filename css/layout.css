@@ -279,7 +279,6 @@ a {
 
     display: flex;
     flex-direction: column;
-    min-height: 77vh;
 }
 
 
@@ -291,7 +290,7 @@ a {
     float: left;
 
     width: 196px;
-    height: 607px;
+    /*height: 607px;*/
 }
 
 .recent_search_icon__container {
@@ -355,7 +354,7 @@ a {
     float: left;
 
     width: 518px;
-    height: 607px;
+    /*height: 607px;*/
 }
 
 .body__middle_container__header_container__common {
@@ -483,7 +482,7 @@ a {
     float: right;
 
     width: 178px;
-    height: 607px;
+    /*height: 607px;*/
 }
 
 .body__right_right__container {
@@ -492,7 +491,7 @@ a {
 
 
 .body__middle_column__body_container {
-    height: 520px;
+    /*height: 520px;*/
     overflow-y: auto;
 }
 
