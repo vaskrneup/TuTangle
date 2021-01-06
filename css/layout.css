@@ -549,6 +549,10 @@ a {
     font-weight: bold;
 }
 
+.post__subscribed_tag:hover {
+    color: #91bf37;
+}
+
 .post__from {
     color: #4FAFBF;
     font-weight: bold;
